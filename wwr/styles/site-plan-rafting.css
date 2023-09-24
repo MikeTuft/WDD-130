@@ -1,29 +1,30 @@
+
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #878787   ;
-  --secondary-color: #C2BCAA ;
-  --accent1-color: #E7E7E7;
-  --accent2-color: #94C7B6;
+  --primary-color: #d7372b   ;
+  --secondary-color: #5dda34 ;
+  --accent1-color: #613f2b;
+  --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
-  --paragraph-font: Caveat, Helvetica;
-  --secondary-font: caveat, Helvetica;
+  --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #a68a77;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #a68a77; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #878787  ;
-  --nav-link-color: #595260;
-  --nav-background-color: #94C7B6;
-  --nav-hover-link-color: #468671;
-  --nav-hover-background-color: #468671;
+  --headline-color-on-white: --accent1-color;  /* headlines on a white background */ 
+  --headline-color-on-color: --primary-color; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #0b0c0c; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: rgb(71, 64, 64); /* paragraph text on a colored background */ 
+  --paragraph-background-color: --accent1-color ;
+  --nav-link-color: #9a9e9e;
+  --nav-background-color:  #5f4233;
+  --nav-hover-link-color: #d7372b;
+  --nav-hover-background-color: #802b25;
 }
 
 
@@ -35,12 +36,11 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
-  background-color: #94C7B6;
 }
 img {
   display: block;
   margin: 0 auto;
-  max-width: 550px;
+  max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
